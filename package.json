@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-determinism",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Storybook addon that seeds Math.random and crypto for deterministic stories, snapshots, and visual regression tests.",
   "keywords": [
     "storybook-addon",
