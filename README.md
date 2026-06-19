@@ -72,7 +72,25 @@ const preview: Preview = {
 };
 ```
 
-The clock is **re-seeded on every render**, so each story starts from the same sequence regardless of what earlier stories consumed. `Math.random`, `crypto.randomUUID`, and `crypto.getRandomValues` each draw from an independent stream, so one source minting values never shifts another's output.
+The seeded sources are **re-applied on every render**, so each story starts from the same sequence regardless of what earlier stories consumed. `Math.random`, `crypto.randomUUID`, and `crypto.getRandomValues` each draw from an independent stream, so one source minting values never shifts another's output.
+
+### Global seed override
+
+The decorator also reads a `determinism` **global**. When it is set to a seed number it forces every source on with that seed, overriding the `determinism` parameter — so the full precedence is **global > story > meta > preview**. This is an escape hatch for driving the seed without touching parameters (from Storybook globals, or a future toolbar):
+
+```ts
+// per story
+export const Replayed: Story = {
+  globals: { determinism: 7 },
+};
+
+// or for the whole preview
+const preview: Preview = {
+  initialGlobals: { determinism: 7 },
+};
+```
+
+Set it back to `undefined` to fall back to the `determinism` parameter.
 
 ## What gets seeded
 
