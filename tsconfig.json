@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "jsx": "react",
+    "moduleResolution": "bundler",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "preserve",
+    "noImplicitAny": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "target": "esnext"
+  },
+  "include": ["src/**/*"]
+}
