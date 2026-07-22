@@ -1,0 +1,4 @@
+storybook-addon-determinism@0.1.2:
+  dir: ""
+  intents:
+    - switch-release-automation
