@@ -58,7 +58,7 @@
     "@vitejs/plugin-react": "6.0.4",
     "@vitest/browser-playwright": "4.1.10",
     "npm-run-all2": "9.0.2",
-    "playwright": "1.61.1",
+    "playwright": "1.62.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "storybook": "next",
