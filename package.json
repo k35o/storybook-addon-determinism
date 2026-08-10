@@ -73,7 +73,7 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@11.19.0",
+  "packageManager": "pnpm@11.20.0",
   "storybook": {
     "displayName": "Determinism",
     "icon": "https://raw.githubusercontent.com/k35o/storybook-addon-determinism/main/.github/icon.png"
