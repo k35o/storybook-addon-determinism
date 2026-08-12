@@ -64,7 +64,7 @@
     "storybook": "next",
     "typescript": "7.0.2",
     "vite": "8.2.0",
-    "vite-plus": "0.2.7",
+    "vite-plus": "0.2.8",
     "vitest": "4.1.10"
   },
   "peerDependencies": {
