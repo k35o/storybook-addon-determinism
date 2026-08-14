@@ -28,6 +28,22 @@ const config: StorybookConfig = {
 export default config;
 ```
 
+### With CSF factories (CSF Next)
+
+If your project uses [CSF factories](https://storybook.js.org/docs/api/csf/csf-next), register the addon in `.storybook/preview.ts` instead of `main.ts`:
+
+```ts
+// .storybook/preview.ts
+import { definePreview } from '@storybook/your-framework';
+import determinism from 'storybook-addon-determinism';
+
+export default definePreview({
+  addons: [determinism()],
+});
+```
+
+This also types the `determinism` parameter and global in `preview.meta()` and `meta.story()`.
+
 ## Usage
 
 Enable determinism via the `determinism` parameter at the story, meta, or preview level (precedence: **story > meta > preview**).
