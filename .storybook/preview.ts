@@ -1,9 +1,9 @@
-import type { Preview } from '@storybook/react-vite';
+import { definePreview } from '@storybook/react-vite';
+import determinism from 'storybook-addon-determinism';
 
-const preview: Preview = {
+export default definePreview({
+  addons: [determinism()],
   parameters: {
     determinism: true,
   },
-};
-
-export default preview;
+});
