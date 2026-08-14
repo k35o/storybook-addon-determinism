@@ -1,5 +1,11 @@
 # storybook-addon-determinism
 
+## 0.2.0
+
+### Minor Changes
+
+- Add CSF factories (CSF Next) support: the package root now exports a `definePreviewAddon` factory, so the addon can be registered with `definePreview({ addons: [determinism()] })` and the `determinism` parameter and global are type-checked in `preview.meta()` / `meta.story()`.
+
 ## 0.1.2
 
 ### Patch Changes
