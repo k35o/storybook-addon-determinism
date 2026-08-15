@@ -11,6 +11,7 @@ const toHex = (bytes: Uint8Array): string =>
  * a lazy initializer so they stay stable across re-renders.
  */
 export const RandomCard: FC = () => {
+  // oxlint-disable-next-line react/hook-use-state -- read once via a lazy initializer; there is intentionally no setter
   const [data] = useState(() => ({
     id: crypto.randomUUID(),
     value: Math.random(),
