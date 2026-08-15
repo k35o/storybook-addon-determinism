@@ -6,3 +6,7 @@ storybook-addon-determinism@0.2.0:
   dir: ""
   intents:
     - csf-factories-support
+storybook-addon-determinism@0.2.1:
+  dir: ""
+  intents:
+    - factory-runtime-csf-import
