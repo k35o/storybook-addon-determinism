@@ -174,8 +174,8 @@ importers:
         version: 11.0.0-alpha.1(@types/react@19.3.0)(react@19.3.0)(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)))
     devDependencies:
       '@k8o/oxc-config':
-        specifier: 0.4.0
-        version: 0.4.0(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)))
+        specifier: 1.0.0
+        version: 1.0.0(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)))
       '@storybook/addon-docs':
         specifier: next
         version: 11.0.0-alpha.1(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(storybook@11.0.0-alpha.1(@types/react@19.3.0)(react@19.3.0)(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2))))
@@ -503,8 +503,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@k8o/oxc-config@0.4.0':
-    resolution: {integrity: sha512-Y7V5xkghsmCzzqgPzEqWGKiLHVuCeKM0h8Xp3LIx+xYqXb/aqYrtkPoUlaX/NKWH1C+k/MOh++Ylr7iF2Oly2w==}
+  '@k8o/oxc-config@1.0.0':
+    resolution: {integrity: sha512-WIPNmwszJSsXiCflwoGgafVfXI/KuDLDUqaL2Yosr+Dg3/f8xU/LxdRjd9oR45Ms0Ggx+d3DArMX4nM/MTv4iw==}
     engines: {node: '>=24.13.0'}
     peerDependencies:
       '@k8o/html-nest': '>=0.2.0'
@@ -2795,7 +2795,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@k8o/oxc-config@0.4.0(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)))':
+  '@k8o/oxc-config@1.0.0(vite-plus@0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)))':
     dependencies:
       vite-plus: 0.3.0(@types/node@24.19.1)(@vitest/browser-playwright@4.1.11)(esbuild@0.28.2)(typescript@7.0.2)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2))
 
