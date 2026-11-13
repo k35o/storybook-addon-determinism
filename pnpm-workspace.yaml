@@ -1,6 +1,8 @@
 minimumReleaseAge: 10080
 minimumReleaseAgeExclude:
   - '@k8o/*'
+  # Renovate security update: vite-plus@1.1.0
+  - vite-plus@1.1.0
 
 blockExoticSubdeps: true
 verifyDepsBeforeRun: install
